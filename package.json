@@ -2,9 +2,12 @@
   "name": "readline-path-completer",
   "version": "0.0.0",
   "description": "Enable path completion in readline",
-  "main": "index.js",
+  "main": "lib/readline-path-completer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines" : {
+    "node": ">=0.10.0",
   },
   "repository": {
     "type": "git",
